@@ -13,6 +13,6 @@ public class TreinadorAdjunto {
     }
 
     public String receberCriticaTreinoJogador(String mensagem){
-        return "O jogador criticou o treino de " + mensagem + "\n" + Treinador.getInstancia().receberReclamacaoTrino(mensagem);
+        return "O jogador criticou o treino de " + mensagem + "\n" + Treinador.getInstancia().receberReclamacaoTreino(mensagem);
     }
 }

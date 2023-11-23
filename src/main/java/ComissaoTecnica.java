@@ -1,6 +1,5 @@
 public interface ComissaoTecnica {
 
-    String instruirJogador(String mensagem);
-    String disciplinarJogador(String mensagem);
-    String suspenderJogador(String mensagem);
+    String receberElogioTreino(String mensagem);
+    String receberReclamacaoTreino(String mensagem);
 }

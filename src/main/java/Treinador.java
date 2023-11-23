@@ -1,4 +1,4 @@
-public class Treinador{
+public class Treinador implements ComissaoTecnica{
 
     private static Treinador instancia = new Treinador();
 
@@ -8,14 +8,13 @@ public class Treinador{
         return instancia;
     }
 
-    public String receberReclamacaoTrino(String mensagem){
+    public String receberReclamacaoTreino(String mensagem){
         return "O treino de " + mensagem + " sera melhorado";
     }
 
     public String receberElogioTreino(String mensagem){
         return "O treino de " + mensagem + " sera mantido";
     }
-
 
 
 }
